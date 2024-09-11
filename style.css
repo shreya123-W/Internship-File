@@ -1,0 +1,76 @@
+General Styling body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #3f87a6, #ebf8e1);
+    padding: 100px 0;
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Ensures the navbar stays on top of other elements */
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+.features-section {
+    padding: 100px 0;
+    background-color: #f9f9f9;
+}
+
+.features-section i {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.explore-jobs-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.job-card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.about-section {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.blog-section {
+    padding: 80px 0;
+}
+
+.blog-card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.newsletter-section {
+    padding: 80px 0;
+    background-color: #3f87a6;
+    color: white;
+}
+
+.footer-section {
+    padding: 40px 0;
+    background-color: #333;
+    color: #fff;
+}
